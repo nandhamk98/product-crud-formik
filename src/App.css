@@ -2,37 +2,98 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mangaList {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* justify-content: space-evenly; */
 }
 
-.App-link {
-  color: #61dafb;
+.inputField {
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mangaContent {
+  margin: 10px;
+}
+
+.mangaComp {
+  margin: 20px;
+  border: 2px solid rgb(207, 206, 206);
+  /* height: 700px; */
+  width: 90vw;
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 700px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+}
+
+.mangaName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mangaPoster {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.mangaContent {
+  width: 80vw;
+}
+
+.mangaSummary {
+  font-size: 18px;
+}
+
+.errorValidation {
+  color: red;
+}
+
+.iconButton {
+  color: gold;
+}
+
+.manga-rating {
+  padding-top: 10px;
+}
+
+ul > li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.manga-detail {
+  margin: 20px;
+}
+.mangaDetail-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.manga-info > p {
+  text-align: left;
+}
+
+.manga-action {
+  display: flex;
+}
+
+ul > li {
+  display: inline-block;
+  margin: 30px;
+  text-decoration: none;
+}
+
+.paper {
+  min-height: 100vh;
+  border-radius: 0px;
+}
+.BackButton {
+  display: flex;
+  justify-content: flex-start;
 }
