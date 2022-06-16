@@ -82,7 +82,7 @@ function App() {
               <MangaList />
             </Route>
             <Route path="/" exact>
-              <h3>Welcome to Explore Manga</h3>
+              <h3>Welcome to Explore Manga App with Formik</h3>
             </Route>
             <Route path="**">
               <h1>Page Not Found</h1>
